@@ -10,7 +10,7 @@ GIT_PROMPT_BEHIND="%F{cyan}BNUM%"
 GIT_PROMPT_MERGING="%F{magenta}⚡︎"
 GIT_PROMPT_UNTRACKED="%F{red}●"    
 GIT_PROMPT_MODIFIED="%F{yellow}●"   
-GIT_PROMPT_STAGED="%F{cyan}●"      
+GIT_PROMPT_STAGED="%F{green}●"      
 
 parse_git_branch() {
   # Show Git branch/tag, or name-rev if on detached head
@@ -118,3 +118,5 @@ alias psg='ps aux | grep'
 alias cp="cp -iv"
 alias mv="mv -iv"
 alias ln="ln -iv"
+
+clear
